@@ -1,0 +1,14 @@
+body {
+	background-color: #F4F2F2;
+	background-size: 100%;
+}
+
+.cursor {
+ position: absolute;
+ bottom: -100px;
+ /*width: 70px;
+ height: 70px;*/
+ cursor: none;
+ pointer-events: none;
+}
+
