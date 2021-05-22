@@ -1,0 +1,144 @@
+body {
+  font-family: "Times", serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  margin: 0;
+}
+
+h1 {
+  font-style: italic;
+}
+
+p {
+  font-size: 12px;
+}
+
+a {
+  color: rgb(179, 211, 234);
+}
+
+.red {
+  /* background: rgb(254, 228, 223); */
+  color: rgb(250, 200, 191);
+}
+
+.blue {
+  /* color: #006db8; */
+  color: rgb(179, 211, 234);
+}
+
+figcaption {
+  font-size: 12px;
+  padding-top: 3px;
+}
+
+.caption {
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.green {
+  color: rgb(179, 224, 210);
+  /* color: #00966b; */
+}
+
+.yellow {
+  color: rgb(252, 246, 218);
+  /* color: #edc30b; */
+}
+
+left-column {
+  width: 48%;
+  /* flex: 1 1 auto; */
+  float: left;
+}
+
+right-column {
+  width: 48%;
+  /* flex: 1 1 auto; */
+  float: right;
+}
+
+.imgpadding {
+  padding-bottom: 5px;
+}
+
+.subtitle {
+  position: absolute;
+  width: 1050px;
+  height: 175px;
+  bottom: 75px;
+}
+
+figure:nth-child(2) {
+  position: absolute;
+  top: 300px;
+  right: 40px;
+}
+
+figure:nth-child(3) {
+  position: absolute;
+  top: 68px;
+  right: 232px;
+}
+
+figure:nth-child(4) {
+  position: absolute;
+  top: 70px;
+  left: 510px;
+}
+
+figure:nth-child(5) {
+  position: absolute;
+  top: 220px;
+  left: 200px;
+}
+
+figure:nth-child(6) {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+}
+
+.projects {
+  position: absolute;
+  width: 1050px;
+  height: 60px;
+  bottom: 5px;
+  text-align: center;
+}
+
+.remark-slides-area {
+  background: black;
+}
+
+.remark-slide-content {
+  position: relative;
+  vertical-align: top;
+  background: black;
+}
+
+.remark-slide-content h1 {
+  font-size: 72px;
+}
+
+.remark-slide-content h2 {
+  font-size: 60px;
+}
+
+.remark-slide-content h3 {
+  font-size: 42px;
+  line-height: 130%;
+}
+
+.remark-slide-scaler {
+  -webkit-box-shadow: none;
+}
+
+.remark-slide-number {
+  display: none;
+}
