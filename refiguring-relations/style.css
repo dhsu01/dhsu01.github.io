@@ -69,9 +69,19 @@ right-column {
 
 .subtitle {
   position: absolute;
+  text-align: center;
   width: 1050px;
-  height: 175px;
+  height: 200px;
   bottom: 75px;
+}
+
+.transcript {
+  position: absolute;
+  font-family: "arial";
+  text-align: center;
+  font-size: 21px;
+  width: 1050px;
+  bottom: 20px;
 }
 
 figure:nth-child(2) {
@@ -132,7 +142,7 @@ figure:nth-child(6) {
 
 .remark-slide-content h3 {
   font-size: 42px;
-  line-height: 130%;
+  line-height: 120%;
 }
 
 .remark-slide-scaler {
